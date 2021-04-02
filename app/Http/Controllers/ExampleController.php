@@ -11,8 +11,11 @@ class ExampleController extends Controller
      */
     public function __construct()
     {
-        return json_encode(['nama' => 'Sheyla Utari']);
+        
     }
 
-    //
+    public function nama()
+    {
+        return json_encode(['nama' => 'Sheyla Utari']);
+    }
 }
