@@ -18,5 +18,5 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/nama', [
-    'uses' => 'ExampleController@index'
+    'uses' => 'ExampleController@nama'
 ]);
